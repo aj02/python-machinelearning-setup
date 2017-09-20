@@ -1,28 +1,28 @@
-name: carnd-term1
+name: greyatom3.5
 channels:
     - https://conda.anaconda.org/menpo
     - conda-forge
 dependencies:
-    - python==3.5.2
+    - python=3.5
     - numpy
     - matplotlib
     - jupyter
-    - opencv3
-    - pillow
     - scikit-learn
-    - scikit-image
     - scipy
-    - h5py
-    - eventlet
-    - flask-socketio
     - seaborn
     - pandas
+    - nltk
+    - tqdm
+    - wordcloud
+    - requests
+    - opencv3
+    - nose
+    - pillow
+    - scikit-image
+    - h5py
     - ffmpeg
     - imageio=2.1.2
     - pyqt=4.11.4
-    - boto
-    - paramiko
     - pip:
         - moviepy
-        - tensorflow==0.12.1
-        - keras==1.2.1
+        - imbalanced-learn
